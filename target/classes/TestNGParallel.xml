@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="2" parallel="tests" thread-count="2" >
+ 
+ 
+ <test name="Mercurylogintest1" >
+  <parameter name="Username" value="Username1"/>
+  <parameter name="Password" value="Password1"/>
+<classes>
+       <class name="com.qa.parallelTests.MercuryLogin" />
+    </classes>
+  </test> 
+
+   <test name="Mercurylogintest2" >
+  <parameter name="Username" value="Username2"/>
+  <parameter name="Password" value="Password2"/>
+  
+    <classes>
+       <class name="com.qa.parallelTests.MercuryLogin" />
+    </classes>
+  </test> 
+</suite>
