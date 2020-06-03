@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [8PMSeleniumTraining]">
+  <test thread-count="5" verbose="0" name="TestNGScripts(failed)">
+    <classes>
+      <class name="com.qa.testNGScripts.TestNGScript1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="itenryCustomer"/>
+          <include name="timeout"/>
+          <include name="configuration"/>
+        </methods>
+      </class> <!-- com.qa.testNGScripts.TestNGScript1 -->
+    </classes>
+  </test> <!-- TestNGScripts(failed) -->
+</suite> <!-- Failed suite [8PMSeleniumTraining] -->

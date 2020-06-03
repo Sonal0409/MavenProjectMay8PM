@@ -1,87 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="8PMSeleniumTraining" duration-ms="45011" started-at="2020-05-28T00:57:06Z" finished-at="2020-05-28T00:57:51Z">
+  <suite name="8PMSeleniumTraining" duration-ms="280" started-at="2020-06-03T00:52:17Z" finished-at="2020-06-03T00:52:18Z">
     <groups>
     </groups>
-    <test name="TestNGScripts" duration-ms="45011" started-at="2020-05-28T00:57:06Z" finished-at="2020-05-28T00:57:51Z">
+    <test name="TestNGScripts" duration-ms="280" started-at="2020-06-03T00:52:17Z" finished-at="2020-06-03T00:52:18Z">
       <class name="com.qa.testNGScripts.AnnotationsTestNG">
-        <test-method status="PASS" signature="login()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@1afc369]" name="login" is-config="true" duration-ms="27" started-at="2020-05-28T00:57:06Z" finished-at="2020-05-28T00:57:06Z">
+        <test-method status="PASS" signature="exampletest()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@17776a8]" name="exampletest" is-config="true" duration-ms="89" started-at="2020-06-03T00:52:17Z" finished-at="2020-06-03T00:52:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exampletest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@17776a8]" name="login" is-config="true" duration-ms="2" started-at="2020-06-03T00:52:18Z" finished-at="2020-06-03T00:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="login1()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@1afc369]" name="login1" is-config="true" duration-ms="0" started-at="2020-05-28T00:57:06Z" finished-at="2020-05-28T00:57:06Z">
+        <test-method status="PASS" signature="login1()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@17776a8]" name="login1" is-config="true" duration-ms="2" started-at="2020-06-03T00:52:18Z" finished-at="2020-06-03T00:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login1 -->
-        <test-method status="PASS" signature="Timeouts()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@1afc369]" name="Timeouts" is-config="true" duration-ms="1" started-at="2020-05-28T00:57:06Z" finished-at="2020-05-28T00:57:06Z">
+        <test-method status="PASS" signature="Timeouts()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@17776a8]" name="Timeouts" is-config="true" duration-ms="2" started-at="2020-06-03T00:52:18Z" finished-at="2020-06-03T00:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Timeouts -->
-        <test-method status="PASS" signature="createCust()[pri:49, instance:com.qa.testNGScripts.AnnotationsTestNG@1afc369]" name="createCust" duration-ms="1" started-at="2020-05-28T00:57:06Z" finished-at="2020-05-28T00:57:06Z">
+        <test-method status="PASS" signature="createCust()[pri:49, instance:com.qa.testNGScripts.AnnotationsTestNG@17776a8]" name="createCust" duration-ms="4" started-at="2020-06-03T00:52:18Z" finished-at="2020-06-03T00:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCust -->
-        <test-method status="PASS" signature="cookiesdel()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@1afc369]" name="cookiesdel" is-config="true" duration-ms="1" started-at="2020-05-28T00:57:06Z" finished-at="2020-05-28T00:57:06Z">
+        <test-method status="PASS" signature="cookiesdel()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@17776a8]" name="cookiesdel" is-config="true" duration-ms="0" started-at="2020-06-03T00:52:18Z" finished-at="2020-06-03T00:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookiesdel -->
-        <test-method status="PASS" signature="Timeouts()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@1afc369]" name="Timeouts" is-config="true" duration-ms="0" started-at="2020-05-28T00:57:45Z" finished-at="2020-05-28T00:57:45Z">
+        <test-method status="PASS" signature="Timeouts()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@17776a8]" name="Timeouts" is-config="true" duration-ms="1" started-at="2020-06-03T00:52:18Z" finished-at="2020-06-03T00:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Timeouts -->
-        <test-method status="PASS" signature="searchCust()[pri:50, instance:com.qa.testNGScripts.AnnotationsTestNG@1afc369]" name="searchCust" duration-ms="0" started-at="2020-05-28T00:57:45Z" finished-at="2020-05-28T00:57:45Z">
+        <test-method status="PASS" signature="searchCust()[pri:50, instance:com.qa.testNGScripts.AnnotationsTestNG@17776a8]" name="searchCust" duration-ms="0" started-at="2020-06-03T00:52:18Z" finished-at="2020-06-03T00:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchCust -->
-        <test-method status="PASS" signature="cookiesdel()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@1afc369]" name="cookiesdel" is-config="true" duration-ms="0" started-at="2020-05-28T00:57:45Z" finished-at="2020-05-28T00:57:45Z">
+        <test-method status="PASS" signature="cookiesdel()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@17776a8]" name="cookiesdel" is-config="true" duration-ms="0" started-at="2020-06-03T00:52:18Z" finished-at="2020-06-03T00:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookiesdel -->
-        <test-method status="PASS" signature="Timeouts()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@1afc369]" name="Timeouts" is-config="true" duration-ms="1" started-at="2020-05-28T00:57:51Z" finished-at="2020-05-28T00:57:51Z">
+        <test-method status="PASS" signature="Timeouts()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@17776a8]" name="Timeouts" is-config="true" duration-ms="1" started-at="2020-06-03T00:52:18Z" finished-at="2020-06-03T00:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Timeouts -->
-        <test-method status="PASS" signature="deleteCust()[pri:51, instance:com.qa.testNGScripts.AnnotationsTestNG@1afc369]" name="deleteCust" duration-ms="0" started-at="2020-05-28T00:57:51Z" finished-at="2020-05-28T00:57:51Z">
+        <test-method status="PASS" signature="deleteCust()[pri:51, instance:com.qa.testNGScripts.AnnotationsTestNG@17776a8]" name="deleteCust" duration-ms="0" started-at="2020-06-03T00:52:18Z" finished-at="2020-06-03T00:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteCust -->
-        <test-method status="PASS" signature="cookiesdel()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@1afc369]" name="cookiesdel" is-config="true" duration-ms="1" started-at="2020-05-28T00:57:51Z" finished-at="2020-05-28T00:57:51Z">
+        <test-method status="PASS" signature="cookiesdel()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@17776a8]" name="cookiesdel" is-config="true" duration-ms="0" started-at="2020-06-03T00:52:18Z" finished-at="2020-06-03T00:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookiesdel -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@1afc369]" name="logout" is-config="true" duration-ms="0" started-at="2020-05-28T00:57:51Z" finished-at="2020-05-28T00:57:51Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.qa.testNGScripts.AnnotationsTestNG@17776a8]" name="logout" is-config="true" duration-ms="0" started-at="2020-06-03T00:52:18Z" finished-at="2020-06-03T00:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- com.qa.testNGScripts.AnnotationsTestNG -->
-      <class name="com.qa.testNGScripts.TestNGScript1">
-        <test-method status="PASS" signature="configuration()[pri:0, instance:com.qa.testNGScripts.TestNGScript1@19d4f69]" name="configuration" is-config="true" duration-ms="11957" started-at="2020-05-28T00:57:06Z" finished-at="2020-05-28T00:57:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configuration -->
-        <test-method status="PASS" signature="timeout()[pri:0, instance:com.qa.testNGScripts.TestNGScript1@19d4f69]" name="timeout" is-config="true" duration-ms="5055" started-at="2020-05-28T00:57:18Z" finished-at="2020-05-28T00:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- timeout -->
-        <test-method status="PASS" signature="login()[pri:49, instance:com.qa.testNGScripts.TestNGScript1@19d4f69]" name="login" duration-ms="21823" started-at="2020-05-28T00:57:23Z" finished-at="2020-05-28T00:57:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="timeout()[pri:0, instance:com.qa.testNGScripts.TestNGScript1@19d4f69]" name="timeout" is-config="true" duration-ms="5006" started-at="2020-05-28T00:57:45Z" finished-at="2020-05-28T00:57:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- timeout -->
-        <test-method status="PASS" signature="itenryCustomer()[pri:50, instance:com.qa.testNGScripts.TestNGScript1@19d4f69]" name="itenryCustomer" duration-ms="741" started-at="2020-05-28T00:57:50Z" finished-at="2020-05-28T00:57:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- itenryCustomer -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.testNGScripts.TestNGScript1@19d4f69]" name="closeBrowser" is-config="true" duration-ms="353" started-at="2020-05-28T00:57:51Z" finished-at="2020-05-28T00:57:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.qa.testNGScripts.TestNGScript1 -->
     </test> <!-- TestNGScripts -->
   </suite> <!-- 8PMSeleniumTraining -->
 </testng-results>

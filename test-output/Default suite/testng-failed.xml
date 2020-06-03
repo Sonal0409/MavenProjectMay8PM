@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.parallelTests.MercuryLogin">
+      <class name="com.qa.testNGScripts.DatDrivenTestPOI">
         <methods>
-          <include name="signup"/>
+          <include name="wikipagedata"/>
+          <include name="startbrowser"/>
         </methods>
-      </class> <!-- com.qa.parallelTests.MercuryLogin -->
+      </class> <!-- com.qa.testNGScripts.DatDrivenTestPOI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

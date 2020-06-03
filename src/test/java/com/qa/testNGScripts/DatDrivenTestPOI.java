@@ -12,20 +12,18 @@ import com.utility.Xls_dataProvider;
 public class DatDrivenTestPOI {
 	
 	 WebDriver driver;
-		// pass the name of data provide method as parameter to this test method
-		 
-		 @BeforeClass
+	// pass the name of data provide method as parameter to thsi test method
+	 
+	 @BeforeClass
 
-		 public void startbrowser()
-		 {
-		 	System.setProperty("webdriver.chrome.driver",
-		 			"C:\\Users\\vishal mittal\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe");
-		 	
-		 	driver = new ChromeDriver();
-		 	driver.manage().window().maximize();
-		 	driver.get("https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Selenium+%28software%29");
-		 	
-		 }
+	 public void startbrowser()
+	 {
+		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\vishal mittal\\Downloads\\chromedriver_win32 (10)\\chromedriver.exe");
+	 	driver = new ChromeDriver();
+	 	driver.manage().window().maximize();
+	 	driver.get("https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Selenium+%28software%29");
+	 	
+	 }
 		 
 		@Test(dataProvider="testdataxlsx")
 		public  void wikipagedata(String name, String password, String retype, String email)
