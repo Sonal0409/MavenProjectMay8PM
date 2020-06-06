@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13495" started-at="2020-06-02T23:47:01Z" finished-at="2020-06-02T23:47:15Z">
+  <suite name="Default suite" duration-ms="12890" started-at="2020-06-03T05:40:44Z" finished-at="2020-06-03T05:40:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13495" started-at="2020-06-02T23:47:01Z" finished-at="2020-06-02T23:47:15Z">
+    <test name="Default test" duration-ms="12890" started-at="2020-06-03T05:40:44Z" finished-at="2020-06-03T05:40:56Z">
       <class name="com.qa.testNGScripts.DatDrivenTestPOI">
-        <test-method status="PASS" signature="startbrowser()[pri:0, instance:com.qa.testNGScripts.DatDrivenTestPOI@3f4d3d]" name="startbrowser" is-config="true" duration-ms="10026" started-at="2020-06-02T23:47:01Z" finished-at="2020-06-02T23:47:11Z">
+        <test-method status="PASS" signature="startbrowser()[pri:0, instance:com.qa.testNGScripts.DatDrivenTestPOI@3f4d3d]" name="startbrowser" is-config="true" duration-ms="9337" started-at="2020-06-03T05:40:44Z" finished-at="2020-06-03T05:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startbrowser -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DatDrivenTestPOI@3f4d3d]" name="wikipagedata" duration-ms="932" started-at="2020-06-02T23:47:12Z" data-provider="testdataxlsx" finished-at="2020-06-02T23:47:13Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DatDrivenTestPOI@3f4d3d]" name="wikipagedata" duration-ms="1029" started-at="2020-06-03T05:40:54Z" data-provider="testdataxlsx" finished-at="2020-06-03T05:40:55Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DatDrivenTestPOI@3f4d3d]" name="wikipagedata" duration-ms="749" started-at="2020-06-02T23:47:13Z" data-provider="testdataxlsx" finished-at="2020-06-02T23:47:14Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DatDrivenTestPOI@3f4d3d]" name="wikipagedata" duration-ms="741" started-at="2020-06-03T05:40:55Z" data-provider="testdataxlsx" finished-at="2020-06-03T05:40:56Z">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DatDrivenTestPOI@3f4d3d]" name="wikipagedata" duration-ms="748" started-at="2020-06-02T23:47:14Z" data-provider="testdataxlsx" finished-at="2020-06-02T23:47:15Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DatDrivenTestPOI@3f4d3d]" name="wikipagedata" duration-ms="671" started-at="2020-06-03T05:40:56Z" data-provider="testdataxlsx" finished-at="2020-06-03T05:40:56Z">
           <params>
             <param index="0">
               <value>
